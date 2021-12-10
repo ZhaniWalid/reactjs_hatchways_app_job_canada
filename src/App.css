@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: lightgrey;
 }
 
 .App-logo {
@@ -35,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Adding this CSS Class to use the specific "Raleway" font added in the file [./index.css] */
+.Raleway-font {
+  font-family: 'RalewayVariableFont';
 }

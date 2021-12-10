@@ -1,0 +1,25 @@
+/* Adding this CSS Class to use the specific "Raleway" font added in the file [./index.css] */
+.Raleway-font {
+    font-family: 'RalewayVariableFont';
+}
+
+.div-parent-style {
+    /* border: '5px solid #FFFF00'; */
+    margin: auto;
+    width: 50%;             
+    padding: 10px;
+    padding-top: 75px;
+    /* To complete the backgroun-color ("lightgrey") in the [./App.css] file 
+       after the "List" below ("child") -> Default "Landscape Mode" on "browser" in Mode Dev: 
+       (min-width: 1024px) or higher */
+    padding-bottom: 8%;
+}
+
+@media screen and (max-width: 1024px) {
+    .div-parent-style {
+        /* To complete the backgroun-color ("lightgrey") in the [./App.css] file 
+           after the "List" below ("child") -> "Portrait Mode" on "browser" in Mode Dev: 
+           (max-width: 1024px) or lower */
+        padding-bottom: 12%;
+    }
+}

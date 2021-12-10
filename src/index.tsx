@@ -4,6 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Disable all types of log(s) on production Mode
+if (process.env.NODE_ENV === 'production') {
+  console.log = () => {}
+  console.error = () => {}
+  console.debug = () => {}
+  console.info = () => {}
+  console.warn = () => {}
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

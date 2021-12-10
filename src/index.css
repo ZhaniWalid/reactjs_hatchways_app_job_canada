@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Adding the Specific "Raleway" font into the project. To be able to add the new font in the project:
+    1.We should create the "fonts" folder under the "src" folder.
+    2.Add the code below in the [./index.css] ([./index.tsx]) file because it's the root of the project.
+        Tutos links: https://dev.to/annequinkenstein/adding-fonts-to-create-react-app-3ed7?fbclid=IwAR20sJm1mPeBPvE2rnCdbJyUw3tk1rTnhiF6Ax15SJJ9ILKnIaxNWNSqT8c
+                     https://reactgo.com/add-fonts-to-react-app/?fbclid=IwAR2avj7MyLhPEEhSGFm1IdVcwPlSsuqBIX30Lme9aS6qJ4xibgLAtMiJkJY
+                     https://blog.logrocket.com/3-ways-to-add-custom-fonts-to-your-material-ui-project/?fbclid=IwAR2I7h9LECjK_MDPbzKJL_QxO6GHJlL6M0GR96QMGooQyAAkbpeaDSypV4Q
+*/
+@font-face {
+  font-family: 'RalewayVariableFont';
+  src: local('RalewayVariableFont'), url('./fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+}

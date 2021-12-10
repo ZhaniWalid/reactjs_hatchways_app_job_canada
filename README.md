@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+# About the Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web application, is developed with #React using #CRA (create-react-app) and #TypeScript as a template for the files (.tsx/.ts) & as a programming language.
+This web application, is developed as a solution for the HATCHWAYS FRONT-END ASSESSMENT.
+This web application, is developed by Walid Zhani.
 
-## Available Scripts
+Copyrights © 2021 Walid Zhani.
 
-In the project directory, you can run:
+# NPM commands
 
-### `npm start`
+start: npm start
+test:  npm run test
+build: npm run build
+    |
+    |___> After the project is successfully built, serve it with a static server, with this command: 
+            serve -s build
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Ports
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Port used on Dev Mode: 3000
+Port used on Build Mode: 5000
 
-### `npm test`
+# Notes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Note 1
+    After installing "Material UI [MUI]" (@mui/material) to use list view (<ListItem /> component) & The "styling solution of Material UI [MUI]" (@mui/styles) with npm. 
+    I got this problem (Can't resolve "@emotion/react" & "@emotion/styled"), so in order to resolve it I installed them with npm ("npm install @emotion/react @emotion/styled").
 
-### `npm run build`
+## Note 2
+    In order to use "Enzyme" for the unit test(s), I installed it using this line of command:
+        "npm install --save enzyme react-test-renderer enzyme-adapter-react-16"
+    But maybe, you can face some problem when using "Enzyme" package, so in order to fix it, I used the
+    following line of command: 
+        "npm install --save @types/enzyme @types/enzyme-adapter-react-16"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# About me: Links to my online social media profiles & my portfolio
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+My Portfolio (React web app developped by me): https://walid-zhani-portfolio.netlify.app/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+LinkedIn: https://www.linkedin.com/in/walid-zhani-54705612a/
+Github: https://github.com/ZhaniWalid
+Twitter: https://twitter.com/walidzhani
+Facebook: https://www.facebook.com/edzio.auditore1
+Discord: EdzioTN#7419
