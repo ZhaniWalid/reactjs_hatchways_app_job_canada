@@ -1,3 +1,7 @@
+My PRIVATE Acces Token used to push changes to my PRIVATE Github Repo "reactjs_hatchways_app_job_canada":
+
+" reactjs_hatchways_app_job_canada AccessToken - will expire on Thu, Mar 10 2022 => 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 "
+
 # About the Application
 
 This web application, is developed with #React using #CRA (create-react-app) and #TypeScript as a template for the files (.tsx/.ts) & as a programming language.
@@ -6,19 +10,27 @@ This web application, is developed by Walid Zhani.
 
 Copyrights © 2021 Walid Zhani.
 
+## HATCHWAYS FRONT-END ASSESSMENT Link of instructions
+    chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/instructions/f-3/Front-end%20Assessment%20-%20Student%20Profiles-XBL274FY2LGULEXDTH8I.pdf
+
 # NPM commands
 
-start: npm start
-test:  npm run test
-build: npm run build
-    |
-    |___> After the project is successfully built, serve it with a static server, with this command: 
-            serve -s build
+## start:  
+    npm start
+## test:  
+    npm run test
+## build: 
+    npm run build
+        |
+        |___> After the project is successfully built, serve it with a static server, with this command: 
+                serve -s build
 
 # Ports
 
-Port used on Dev Mode: 3000
-Port used on Build Mode: 5000
+## Port used on Dev Mode: 
+    3000
+## Port used on Build Mode: 
+    5000
 
 # Notes
 
@@ -35,10 +47,16 @@ Port used on Build Mode: 5000
 
 # About me: Links to my online social media profiles & my portfolio
 
-My Portfolio (React web app developped by me): https://walid-zhani-portfolio.netlify.app/
+## My Portfolio (React web app developped by me): 
+    https://walid-zhani-portfolio.netlify.app/
 
-LinkedIn: https://www.linkedin.com/in/walid-zhani-54705612a/
-Github: https://github.com/ZhaniWalid
-Twitter: https://twitter.com/walidzhani
-Facebook: https://www.facebook.com/edzio.auditore1
-Discord: EdzioTN#7419
+## LinkedIn: 
+    https://www.linkedin.com/in/walid-zhani-54705612a/
+## Github: 
+    https://github.com/ZhaniWalid
+## Twitter: 
+    https://twitter.com/walidzhani
+## Facebook: 
+    https://www.facebook.com/edzio.auditore1
+## Discord: 
+    EdzioTN#7419
