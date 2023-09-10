@@ -1,7 +1,3 @@
-My PRIVATE Acces Token used to push changes to my PRIVATE Github Repo "reactjs_hatchways_app_job_canada":
-
-" reactjs_hatchways_app_job_canada AccessToken - will expire on Thu, Mar 10 2022 => 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 "
-
 # About the Application
 
 This web application, is developed with #React using #CRA (create-react-app) and #TypeScript as a template for the files (.tsx/.ts) & as a programming language.
